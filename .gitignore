@@ -1,5 +1,3 @@
 dist
 node_modules
 .npmrc
-src/.wand
-src/packages
