@@ -32,12 +32,16 @@ export class Import extends Command  {
                 var meta = yaml.safeLoad(fs.readFileSync(this.from, 'utf8'));
                 importedConfig = this.migrateFromMeta(meta);
                 debug(`CONFIG: ${importedConfig}`);
+            } else {
+                console.log(`${chalk.green(this.from)} doesnt exists`)
             }
         } else if (this.from == 'lerna.json') {
             if (fs.existsSync(this.from)) {
                 var lerna = yaml.safeLoad(fs.readFileSync(this.from, 'utf8'));
                 importedConfig = this.migrateFromLerna(lerna);
                 debug(`CONFIG: ${importedConfig}`);
+            } else {
+                console.log(`${chalk.green(this.from)} doesnt exists`)
             }
         }
         var newConfig = _.merge({}, currentConfig, importedConfig);
