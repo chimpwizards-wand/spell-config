@@ -1,0 +1,44 @@
+{
+  "projects": {
+        "./charts": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/charts",
+        "./vault": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-vault",
+
+        "./commons/autorize-client-library": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/angular-defender-workspace",
+        "./commons/easydevops": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/easydevops",
+
+        "./components/functional-test": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-functional-test",
+        
+        "./components/gateway": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-gateway",
+
+        "./components/camunda": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-camunda",
+        "./components/dashboard": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-webapp",
+        "./components/admin": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-admin",
+
+        "./components/orchestrator": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-orchestrator",
+
+        "./components/openviolationsbystatus": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-openviolationsbystatus",
+        
+        "./components/config": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-config",
+        "./components/workflow": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-workflow",
+        "./components/audit": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-audit",
+        "./components/autorize": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-autorize",
+        "./components/users": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-users",
+        "./components/picklist": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-picklist",
+        "./components/staticdata": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-staticdata",
+        "./components/violation": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-violation",
+        "./components/workday": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-workday",
+        "./components/salesforce": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-salesforce",
+        "./components/events": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-events",
+        "./components/import": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-import",
+        "./components/mapper": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-mapper",
+        "./components/email": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-email",
+        "./components/sdm": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-sdm",
+        "./components/comments": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-comments",
+        "./components/mapper-ui": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-mapper-ui",
+        "./components/contacts": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-contacts",
+        "./components/pcaob": "https://dev.azure.com/pwc-us-it-ifsdomain/Domain%201%20-%20US%20Independence%20Violations%20replatform/_git/ivd-pcaob",
+
+"_chunk":".meta"
+
+  }
+}

@@ -1,27 +1,27 @@
 import Debug from 'debug';
 import { Command } from  '@chimpwizards/wand'
+import { Execute } from  '@chimpwizards/wand'
 import { CommandDefinition, CommandParameter, CommandArgument } from '@chimpwizards/wand/commons/command/'
 const chalk = require('chalk');
-const debug = Debug("w:cli:hello");
+const debug = Debug("w:cli:config");
 
 @CommandDefinition({ 
-    description: 'Say Hi to someone'
+    description: 'Configuration management'
 })
-export class Hello extends Command  { 
-
-    @CommandArgument({ description: 'Body name', required: true})
-    name: string = '';
+export class Config extends Command  { 
 
     execute(yargs: any): void {
-        debug(`Hello ${this.name}`)
-        console.log(`Hello ${chalk.green(this.name)} !!!`)
-    }
+        debug(`Do Nothing`)
+        const executer = new Execute();
+        let cmd = `w config --help`;
+        executer.run({cmd: cmd, showLog: false})
+    } 
 
 }
 
 export function register ():any {
     debug(`Registering....`)
-    let command = new Hello();
+    let command = new Config();
     debug(`INIT: ${JSON.stringify(Object.getOwnPropertyNames(command))}`)
 
     return command.build()
