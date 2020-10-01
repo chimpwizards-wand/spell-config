@@ -1,6 +1,6 @@
 {
   "name": "@chimpwizards-wand/spell-config",
-  "version": "2.0.12",
+  "version": "2.0.13",
   "description": "Magic happens everywhere",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,6 @@
     "chalk": "^4.0.0",
     "debug": "^4.1.1",
     "lodash": "^4.17.15"
-
   },
   "devDependencies": {
     "@chimpwizards/wand": "^1.0.17",
