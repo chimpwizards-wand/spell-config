@@ -21,7 +21,7 @@ export class Set extends Command  {
     execute(yargs: any): void {
         debug(`UPDATE ${this.name} = ${this.value}`)
         var configInstance = new Config();
-        var currentConfig = configInstance.load();
+        var currentConfig = configInstance.load({});
         var settings : any= { settings: {}}
         settings.settings[this.name] = this.value
         var newConfig = _.merge({}, currentConfig, settings);

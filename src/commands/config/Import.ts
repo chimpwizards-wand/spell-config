@@ -25,7 +25,7 @@ export class Import extends Command  {
         debug(`FROM ${this.from}`)
         console.log(`FROM ${chalk.green(this.from)} !!!`)
         var configInstance = new Config();
-        var currentConfig = configInstance.load();
+        var currentConfig = configInstance.load({});
         var importedConfig : any = {}
         if (this.from == '.meta') {
             if (fs.existsSync(this.from)) {
