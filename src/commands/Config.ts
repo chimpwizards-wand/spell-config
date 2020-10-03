@@ -6,6 +6,7 @@ const chalk = require('chalk');
 const debug = Debug("w:cli:config");
 
 @CommandDefinition({ 
+    alias: 'c',
     description: 'Configuration management'
 })
 export class Config extends Command  { 
