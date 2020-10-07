@@ -18,7 +18,7 @@ import * as _ from 'lodash';
 })
 export class Import extends Command  { 
 
-    @CommandArgument({ description: 'Metadata file to use to import into this workspace', alias: 'f', required: true})
+    @CommandArgument({ description: 'Metadata file to use to import into this workspace', required: true})
     from: string = '';
 
     execute(yargs: any): void {
