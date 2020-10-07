@@ -12,10 +12,10 @@ import * as _ from 'lodash';
 })
 export class Set extends Command  { 
 
-    @CommandArgument({ description: 'Setting to update', required: true})
+    @CommandArgument({ description: 'Setting to update', alias: 'n', required: true})
     name: string = '';
 
-    @CommandArgument({ description: 'New value to assign', required: true})
+    @CommandArgument({ description: 'New value to assign', alias: 'v', required: true})
     value: string = '';
 
     execute(yargs: any): void {
